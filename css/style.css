@@ -209,7 +209,7 @@
 .space-box .space .img-txt-p {
   font-size: 1rem;
   font-weight: 300;
-  margin-top: 4px;
+  margin-top: 12px;
 }
 .space-box .space .img-txt-h {
   font-size: 1.25rem;
@@ -328,12 +328,11 @@
 .best-box .content-box .img-txt-h {
   font-size: 1.25rem;
   font-weight: 600;
-  margin-top: 4px;
 }
 .best-box .content-box .img-txt-p {
   font-size: 1rem;
   font-weight: 300;
-  margin-top: 4px;
+  margin-top: 12px;
 }
 .best-box .content-box {
   display: flex;
@@ -367,8 +366,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.collabo-box .title-box .txt1 {
+
   text-transform: uppercase;
   font-size: 3.75rem;
   font-weight: 700;
@@ -400,13 +398,13 @@
   text-transform: uppercase;
   font-size: 1.25rem;
   font-weight: 600;
-  margin-top: 4px;
+  margin-top: 12px;
 }
 .collabo-box .content-box .img-txt-p {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 300;
-  margin-top: 4px;
+  margin-top: 20px;
 }
 .collabo-box .content-box {
   width: 1280px;
@@ -697,6 +695,7 @@
   /* 공간 */
   .space-box .space1 .txt-img1 .txt1 {
     font-size: 3rem;
+    width: 200px;
   }
   .space-box .space1 .txt-img2-2 {
     font-size: 1rem;
@@ -781,12 +780,13 @@
     margin-bottom: 80px;
   }
   .best-box .title-sub1 {
-    display: block;
+    /* display: block; */
+    flex-direction: row;
+    gap: 12px;
   }
   .best-box .title-sub1 {
     font-size: 3rem;
     font-weight: 800;
-    margin-right: 12px;
   }
   .best-box .sub-box {
     display: none;
@@ -803,22 +803,29 @@
   }
   .best-box .content-box .img-txt-h {
     font-size: 1.5rem;
+    margin-top: 12px;
   }
   .best-box .content-box .img-txt-p {
     font-size: 1.25rem;
+    margin-top: 6px;
   }
 
   /* -------------------------------- */
   /* 콜라보 */
   .collabo-box .title-box .collabo-txt1 {
-    display: block;
+    /* display: block; */
+    flex-direction: row;
+    gap: 12px;
 
     font-size: 3rem;
     font-weight: 800;
-    margin-right: 12px;
+    /* margin-right: 12px; */
+  }
+  .collabo-box .title-box {
+    margin-bottom: 80px;
   }
   .collabo-box .content-box {
-    margin-top: 80px;
+    margin-top: 0;
   }
   .collabo-box .content-box .content-sub-1 {
     display: none;
@@ -835,9 +842,11 @@
   }
   .collabo-box .content-box .img-txt-h {
     font-size: 1.5rem;
+    margin-top: 6px;
   }
   .collabo-box .content-box .img-txt-p {
     font-size: 1.25rem;
+    margin-top: 12px;
   }
 }
 
@@ -971,13 +980,13 @@
   .best-box .title-main {
     margin-bottom: 40px;
   }
-  .collabo-box .content-box {
-    margin-top: 40px;
-  }
   .best-box .title-sub1,
   .space-box .space1 .txt-img1 .txt1,
   .collabo-box .title-box .txt1 {
     font-size: 2rem;
+  }
+  .collabo-box .title-box {
+    margin-bottom: 40px;
   }
   .best-box .title-sub2,
   .collabo-box .title-box .txt2,
@@ -1030,6 +1039,10 @@
   .stay-box .txt-main .stay-txt-main-h1,
   .stay-box .txt-main .stay-txt-main-h2 {
     font-size: 4rem;
+  }
+  .best-box .title-sub1,
+  .collabo-box .title-box .collabo-txt1 {
+    gap: 8px;
   }
 }
 
