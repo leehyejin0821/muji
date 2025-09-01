@@ -68,4 +68,6 @@ document.addEventListener(`DOMContentLoaded`, function () {
   subMenuBox.addEventListener(`mouseleave`, function () {
     this.classList.remove(`active`);
   });
+
+  // 수정완료
 }); //end
