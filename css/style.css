@@ -1,4 +1,3 @@
-/* 수정완료 */
 /* ////////////////////////////////////////////// */
 /* 헤더부분 */
 .header-area {
@@ -745,11 +744,15 @@
   }
   .space-box .space1 .txt-img4,
   .space-box .space2,
-  .space-box .space3,
-  .space-box .space4 {
+  .space-box .space3 {
     margin: 0 auto;
     width: 600px;
     margin-bottom: 40px;
+  }
+
+  .space-box .space4 {
+    margin: 0 auto;
+    width: 600px;
   }
   .space-box .space1 .txt-img2-2,
   .space-box .space1 .txt-img3-1 {
