@@ -8,7 +8,7 @@
 ## ✨ 주요 구현 포인트  
 
 - **직접 설계한 구조적 아키텍처**  
-  - HTML5 시맨틱 태그(`header`, `nav`, `section`, `article`, `footer`) 활용  
+  - HTML5 시맨틱 태그(`header`, `section`, `footer`) 활용  
   - CSS BEM 네이밍과 모듈화된 구조로 작성  
   - JavaScript(바닐라 JS)로 DOM 제어 및 이벤트 핸들링 구현  
 
