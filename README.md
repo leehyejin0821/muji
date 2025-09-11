@@ -1,53 +1,40 @@
-# MUJI Inspired Webpage  
+# 🏠 무인양품 (MUJI Renewal Website)
 
-이 프로젝트는 MUJI(무인양품)의 브랜드 철학인 “비움의 미학, 삶의 본질”을 해석하여 **직접 기획, 디자인, 개발**한 웹사이트입니다.  
-단순한 비주얼 재현을 넘어, **HTML·CSS·JavaScript 구조를 깊이 이해하고 이를 체계적으로 설계·구현**한 결과물입니다.  
-
----
-
-## ✨ 주요 구현 포인트  
-
-- **직접 설계한 구조적 아키텍처**  
-  - HTML5 시맨틱 태그(`header`, `section`, `footer`) 활용  
-  - CSS BEM 네이밍과 모듈화된 구조로 작성  
-  - JavaScript(바닐라 JS)로 DOM 제어 및 이벤트 핸들링 구현  
-
-- **반응형 웹 최적화**  
-  - CSS Grid & Flexbox 레이아웃  
-  - Media Queries로 다양한 화면 대응  
-
-- **웹 접근성 고려**  
-  - 시맨틱 마크업, 대체 텍스트 제공  
-  - 키보드 네비게이션 반영  
-
-- **경량 퍼포먼스 구현**  
-  - 불필요한 DOM 중복 제거  
-  - 최적화된 CSS/JS 구조  
+## 📌 About the Project
+**제작 의도**  
+이 사이트는 무인양품의 리뉴얼 홈페이지를 새롭게 디자인한 프로젝트입니다.  
+기존 홈페이지의 단점이었던 **답답한 배치**와 **깔끔하지 않은 메인 컨텐츠 분류** 문제를 개선하고자 하였습니다.  
+직관적인 레이아웃과 선별된 메인 컨텐츠 분류 방식을 적용하여, 사용자가 보다 쉽게 정보를 탐색할 수 있도록 구현했습니다.
 
 ---
 
-## 🛠️ 기술 스택  
-
-| 분야            | 적용 기술 |
-|-----------------|----------|
-| **Markup**      | HTML5 (Semantic 구조 설계) |
-| **Styling**     | CSS3 (Flexbox, Grid, BEM, 반응형) |
-| **Interaction** | JavaScript (Vanilla DOM 조작, 이벤트 제어) |
-| **Versioning**  | Git & GitHub |
+## ✨ 주요 기능 (Features)
+- **HTML, CSS, JavaScript 기반 반응형 구현**  
+- `scrollY` / `innerWidth` 변화에 따른 **헤더 애니메이션**  
+- `click` / `toggle` 이벤트를 활용한 **사업자정보 애니메이션**  
+- 메인 메뉴와 연동되는 **서브메뉴 hover 이벤트 (mouseenter / mouseleave)**  
 
 ---
 
-## 📌 프로젝트 목적  
-
-- 단순한 클론이 아닌, **웹 3대 핵심 기술(HTML·CSS·JS)을 구조적으로 이해하고 구현**하는 과정 경험  
-- 브랜드 아이덴티티를 **디자인 감각 + 기술적 구조화**로 풀어내기  
-- 유지보수성과 확장성을 고려한 **실무형 코드 작성 능력 강화**
+## 🌐 Demo / Live Site
+👉 [무인양품 리뉴얼 홈페이지 바로가기](https://leehyejin0821.github.io/muji/)
 
 ---
 
-## 🚀 배포  
+## 🛠 Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
+- Figma  
 
-👉 [프로젝트 링크 바로가기](https://leehyejin0821.github.io/muji/)  
+---
+
+## 📷 작품 미리보기
+![무인양품 리뉴얼 홈페이지 미리보기](./photo/muji_webpage.png)
+
+---
+
+
 
 
 
