@@ -12,7 +12,8 @@
 - **HTML, CSS, JavaScript 기반 반응형 구현**  
 - `scrollY` / `innerWidth` 변화에 따른 **헤더 애니메이션**  
 - `click` / `toggle` 이벤트를 활용한 **사업자정보 애니메이션**  
-- 메인 메뉴와 연동되는 **서브메뉴 hover 이벤트 (mouseenter / mouseleave)**  
+- 메인 메뉴와 연동되는 **서브메뉴 hover 이벤트 (mouseenter / mouseleave)**
+- `swiper`플러그인 활용한 **배너 슬라이딩 애니메이션**
 
 ---
 
