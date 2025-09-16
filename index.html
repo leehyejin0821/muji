@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
 
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <title>layout-muji</title>
   </head>
   <body>
@@ -396,9 +402,9 @@
         </div>
       </div>
 
-      <section class="main-container">
-        <div class="banner-box">
-          <div class="container">
+      <div class="banner-wrap">
+        <div class="banner-text-wrap">
+          <div class="banner-text-box">
             <div class="txt1-1">
               <div class="txt1">비움의 미학,</div>
               <div class="txt1">삶의 본질을 담다</div>
@@ -434,6 +440,16 @@
           </div>
         </div>
 
+        <div class="banner-box swiper mySwiper">
+          <div class="swiper-box swiper-wrapper">
+            <div class="container slide1 swiper-slide"></div>
+            <div class="container slide2 swiper-slide"></div>
+            <div class="container slide3 swiper-slide"></div>
+          </div>
+        </div>
+      </div>
+
+      <section class="main-container">
         <div class="space-box">
           <div class="container">
             <div class="space1">
@@ -841,6 +857,32 @@
         </div>
       </footer>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        // spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        effect: "fade",
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+      });
+    </script>
+
     <script src="./script.js"></script>
   </body>
 </html>
