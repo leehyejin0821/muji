@@ -13,7 +13,7 @@
 - `scrollY` / `innerWidth` 변화에 따른 **헤더 애니메이션**  
 - `click` / `toggle` 이벤트를 활용한 **사업자정보 애니메이션**  
 - 메인 메뉴와 연동되는 **서브메뉴 hover 이벤트 (mouseenter / mouseleave)**
-- `swiper`플러그인 활용한 **배너 페이드인아웃 애니메이션**
+- `swiper` 플러그인 활용한 **배너 fade 애니메이션**
 
 ---
 
